@@ -266,6 +266,7 @@ a {
         line-height: 120px;
         color: white;
         z-index: 99;
+	    margin-top:20px;
     }
 
         #banner-large-text #bottom-text {
