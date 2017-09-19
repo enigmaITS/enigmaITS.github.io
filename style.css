@@ -78,7 +78,20 @@ a {
     z-index: 999;
     transition: all 0.3s ease;
 }
-
+#navbar p {
+        display: inline-block;
+        /padding: 5px 0;
+        height: 100%;
+        color: white;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        font-size: 32px;
+        margin-left: 10px;
+         font-weight: 350;
+    }
     #navbar #right a {
         display: inline-block;
         padding: 5px 0;
@@ -235,7 +248,7 @@ a {
 #banner {
     width: 100%;
     height: 100%;
-    background-image: url('IMG_499777.jpg');
+    background-image: url(https://i.pinimg.com/originals/7c/82/8f/7c828f81a061c6d8167f3cd4b4143dbf.jpg);
     background-size: 100%;
     background-position: right 65%;
     background-attachment: fixed;
@@ -253,6 +266,7 @@ a {
         line-height: 120px;
         color: white;
         z-index: 99;
+	    margin-top:20px;
     }
 
         #banner-large-text #bottom-text {
